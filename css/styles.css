@@ -60,76 +60,83 @@ a {
 }
 
 .mades {
-  color: #2E2F42;
+  background-color: #2e2f42;
 }
 
 .mades-title {
   font-size: 56px;
-font-weight: 700;
-line-height: 1.07;
-letter-spacing: 0.02em;
-text-align: center;
-color: #ffffff;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #ffffff;
 }
 
 .mades-but {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  background-color: #404BBF;
-  background-color: #404BBF;
+  background-color: #4d5ae5;
   cursor: pointer;
   color: #ffffff;
 }
 
+.button:hover {
+  background-color: #404bbf;
+}
+
 .made-subtitle {
- font-size: 20px;
-font-weight: 500;
-line-height: 1.2;
-letter-spacing: 0.02em;
-text-align: left;
-color: #2E2F42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #2e2f42;
 }
 
 .made-item-text {
   font-size: 16px;
-font-weight: 400;
-line-height: 1.5;
-letter-spacing: 0.02em;
-text-align: left;
-color: #434455;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #434455;
 }
 
 .review {
-  background-color: #F4F4FD;
+  background-color: #f4f4fd;
+}
+
+.review-item {
+  background-color: #ffffff;
 }
 
 .review-title {
   font-size: 36px;
-font-weight: 700;
-line-height: 1.11;
-letter-spacing: 0.02em;
-text-transform: capitalize;
-text-align: center;
-color: #2E2F42;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+  color: #2e2f42;
 }
 
 .review-subtitle {
   font-size: 20px;
-font-weight: 500;
-line-height: 1.2;
-letter-spacing: 0.02em;
-text-align: center;
-color: #2E2F42;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
 }
 
 .review-item-text {
- font-size: 16px;
-font-weight: 400;
-line-height: 1.5;
-letter-spacing: 0.02em;
-text-align: center;
-color: #434455;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #434455;
 }
 
 .taste-title {
@@ -147,7 +154,7 @@ color: #434455;
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: left;
-  color: #2E2F42;
+  color: #2e2f42;
 }
 
 .taste-item-text {
@@ -163,13 +170,12 @@ color: #434455;
 /*---------  FOOTER ----------*/
 /*----------------------------*/
 
-}
 .page-footer {
   background-color: #2e2f42;
 }
 
 .page-pf {
   line-height: 1.5;
-  letter-spacing: 0.02em
-  color: #F4F4FD;;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
 }
