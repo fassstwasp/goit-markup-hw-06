@@ -81,8 +81,8 @@ a {
   color: #ffffff;
 }
 
-.button:hover,
-.button:focus {
+.mades-but:hover,
+.mades-but:focus {
   background-color: #404bbf;
 }
 
