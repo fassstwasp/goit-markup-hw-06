@@ -204,9 +204,21 @@ a {
   background-color: #ffffff;
 }
 
-.review-item-mark,
-.review-item-tom,
-.review-item-camila,
+.review-item-mark {
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.review-item-tom {
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.review-item-camila {
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+}
+
 .review-item-daniel {
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
