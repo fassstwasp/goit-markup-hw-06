@@ -120,9 +120,6 @@ a {
 
 .mades {
   background-color: #2e2f42;
-}
-
-.mades-container {
   padding: 188px 0;
 }
 
@@ -157,7 +154,7 @@ a {
   background-color: #404bbf;
 }
 
-.made-container {
+.made {
   padding: 120px 0;
 }
 
@@ -181,6 +178,7 @@ a {
 
 .review {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 
 .review-item {
@@ -195,6 +193,7 @@ a {
   text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 
 .review-subtitle {
@@ -215,7 +214,9 @@ a {
   color: #434455;
 }
 
-.taste-container {
+.taste {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .taste-title {
