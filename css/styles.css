@@ -224,9 +224,18 @@ a {
   border-radius: 0px 0px 4px 4px;
 }
 
-.container team-1,
-.container team-2,
-.container team-3,
+.container team-1 {
+  padding: 32px 0;
+}
+
+.container team-2 {
+  padding: 32px 0;
+}
+
+.container team-3 {
+  padding: 32px 0;
+}
+
 .container team-4 {
   padding: 32px 0;
 }
