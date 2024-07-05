@@ -121,6 +121,10 @@ a {
   background-color: #2e2f42;
 }
 
+.mades-container {
+  padding: 188px 0;
+}
+
 .mades-title {
   font-size: 56px;
   font-weight: 700;
@@ -130,18 +134,21 @@ a {
   color: #ffffff;
   max-width: 496px;
   margin: 0 auto;
-  padding: 188px;
 }
 
 .mades-but {
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
   background-color: #4d5ae5;
   cursor: pointer;
-  text-align: center;
   color: #ffffff;
-  margin: 188px;
+  margin: 48px auto;
 }
 
 .mades-but:hover,
@@ -235,6 +242,7 @@ a {
 /*----------------------------*/
 
 .page-footer {
+  padding: 100px 0;
   background-color: #2e2f42;
 }
 
@@ -242,4 +250,9 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+}
+
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
 }
