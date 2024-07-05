@@ -204,12 +204,18 @@ a {
   background-color: #ffffff;
 }
 
-.review-item-mark {
+.review-item-mark,
+.review-item-tom,
+.review-item-camila,
+.review-item-daniel {
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
 
-.container mark {
+.container team-1,
+.container team-2,
+.container team-3,
+.container team-4 {
   padding: 32px 0;
 }
 
