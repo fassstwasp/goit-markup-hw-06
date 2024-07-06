@@ -206,6 +206,10 @@ a {
   padding: 120px 0;
 }
 
+.review-container {
+  padding: 32px 0;
+}
+
 .review-item-ul {
   display: flex;
   gap: 24px;
