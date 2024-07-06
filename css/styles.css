@@ -176,10 +176,7 @@ a {
   overflow: hidden;
 }
 
-.made-item-strategy,
-.made-item-punctuality,
-.made-item-diligence,
-.made-item-technologies {
+.made-item {
   width: calc((100% - 72px) / 4);
 }
 
