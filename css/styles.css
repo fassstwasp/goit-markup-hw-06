@@ -176,13 +176,16 @@ a {
   overflow: hidden;
 }
 
+.made-item {
+  width: calc((100% - 72px) / 4);
+}
+
 .made-item-ul {
   display: flex;
   gap: 24px;
 }
 
 .made-subtitle {
-  width: calc((100% - 72px) / 4);
   margin-bottom: 8px;
   font-size: 20px;
   font-weight: 500;
