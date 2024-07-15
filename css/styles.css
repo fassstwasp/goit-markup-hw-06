@@ -97,7 +97,7 @@ a {
   position: relative;
 }
 
-.nav-link.current::before {
+.nav-link.current::after {
   content: "";
 
   position: absolute;
@@ -144,8 +144,10 @@ a {
 }
 
 .mades {
-  background-color: #2e2f42;
   padding: 188px 0;
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7)),
+    url(../images/people-office.jpg);
+  background-size: 1440px;
 }
 
 .mades-title {
@@ -341,6 +343,13 @@ a {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
+}
+
+.page-pf2 {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  max-width: 96px;
 }
 
 .footer-logo {
