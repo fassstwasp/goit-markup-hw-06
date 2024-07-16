@@ -227,6 +227,22 @@ a {
   gap: 24px;
 }
 
+.made-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  border: 1px solid #8e8f99;
+  margin-bottom: 8px;
+}
+
+.icon-svg {
+  width: 64px;
+  height: 64px;
+}
+
 .made-subtitle {
   margin-bottom: 8px;
   font-size: 20px;
@@ -352,6 +368,11 @@ a {
 
 .taste-item {
   width: calc((100% - 48px) / 3);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.taste-item:hover {
+  transform: translateY(0%);
 }
 
 .cont {
