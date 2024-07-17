@@ -162,6 +162,7 @@ a {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  margin: 0 auto;
 }
 
 .mades-title {
@@ -172,6 +173,7 @@ a {
   color: #ffffff;
   max-width: 496px;
   margin: 0 auto;
+  margin-bottom: 48px;
 }
 
 .mades-but {
@@ -270,6 +272,10 @@ a {
   color: #434455;
 }
 
+/*----------------------------*/
+/*--------- 3.REVIEW ----------*/
+/*----------------------------*/
+
 .review {
   background-color: #f4f4fd;
   padding: 120px 0;
@@ -326,6 +332,7 @@ a {
   display: flex;
   justify-content: center;
   gap: 24px;
+  padding: 8px;
 }
 
 .icon-social-item {
