@@ -546,32 +546,52 @@ svg {
   height: 40px;
 }
 
+.footer-form-text {
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.footer-Subscribe-form {
+  display: flex;
+  gap: 24px;
+}
+
 .modal-subscribe {
-  border: 1px solid #fff;
-  border-radius: 4px;
   width: 264px;
   height: 40px;
-  background: #2e2f42;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: #ffffff;
 }
 
 .footer-btn {
   font-family: "Roboto", sans-serif;
-  font-weight: 500;
   font-size: 16px;
-  line-height: 150%;
+  font-weight: 500;
+  line-height: 1.5;
   letter-spacing: 0.04em;
-  text-align: center;
-  color: #fff;
-  padding-top: 8px;
-  padding-right: 64px;
-  padding-bottom: 8px;
-  padding-left: 24px;
-  background: #4d5ae5;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #4d5ae5;
+  border: none;
+  border-radius: 4px;
+  min-width: 165px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
 .icon-send {
-  fill: #fff;
-  padding-top: 8px;
-  padding-right: 24px;
-  padding-bottom: 8px;
+  margin-left: 16px;
 }
