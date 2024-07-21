@@ -527,3 +527,51 @@ a {
 svg {
   fill: #f4f4fd;
 }
+
+.footer-Subscribe {
+  display: flex;
+  margin-left: auto;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-top: 100px;
+  margin-right: 159px;
+  margin-bottom: 132px;
+  margin-left: 828px;
+  border-radius: 4px;
+  padding: 8px 24px;
+  height: 40px;
+}
+
+.modal-subscribe {
+  border: 1px solid #fff;
+  border-radius: 4px;
+  width: 264px;
+  height: 40px;
+  background: #2e2f42;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+}
+
+.footer-btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #fff;
+  padding-top: 8px;
+  padding-right: 64px;
+  padding-bottom: 8px;
+  padding-left: 24px;
+  background: #4d5ae5;
+}
+.icon-send {
+  fill: #fff;
+  padding-top: 8px;
+  padding-right: 24px;
+  padding-bottom: 8px;
+}
