@@ -528,13 +528,13 @@ svg {
   fill: #f4f4fd;
 }
 
-.footer-Subscribe {
+.footer-subscribe {
   align-items: center;
   gap: 24px;
   margin-left: auto;
 }
 
-.footer-Subscribe-form {
+.footer-subscribe-form {
   display: flex;
   gap: 24px;
 }
